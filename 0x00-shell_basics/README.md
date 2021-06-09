@@ -15,3 +15,5 @@ cd - => this command is used to change the working directory to the previous one
 ls ./ ../ /boot -la => this command is used to display current working directories and parent directory content including hidden files and /boot directory content in long format
 
 file /tmp/iamafile => this command is used to display the type of file in /tmp/iamafile
+
+ln -s /bin/ls _ls_ => this command is used to create a symbolic link called _ls_ for /bin/ls
