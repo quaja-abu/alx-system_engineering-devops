@@ -19,3 +19,5 @@ file /tmp/iamafile => this command is used to display the type of file in /tmp/i
 ln -s /bin/ls _ls_ => this command is used to create a symbolic link called _ls_ for /bin/ls
 
 cp -u ./*.html ../ => this command copy html files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory
+
+mv [[:upper:]]* /tmp/u => this command moves all files that start with an upper case latter to the directory /tmp/u
