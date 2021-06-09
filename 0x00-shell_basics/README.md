@@ -12,4 +12,4 @@ rm -r /tmp/holberton => this command is used to delete holberton directory form 
 
 cd - => this command is used to change the working directory to the previous one
 
-ls /boot -la => this command is used to display current working directories content including hidden files and /boot directory content in long format
+ls ./ ../ /boot -la => this command is used to display current working directories and parent directory content including hidden files and /boot directory content in long format
