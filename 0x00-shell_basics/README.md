@@ -35,3 +35,5 @@ mv [[:upper:]]* /tmp/u => this command moves all files that start with an upper 
 rm *~ => this command deletes all files that ends with character ~
 
 mkdir -p welcome/to/holberton => this commands are used to create a tree welcome/to/holberton directory in the current working directory
+
+ls -aXpmv => this command is used list all files and directories of the current working directory, separated by commas(,), directory names end with a slash, listing si alpha ordered, except for the directories . and .., only digits and letters used to sort etc
