@@ -8,4 +8,6 @@ ls -ln - this commnad is used to display content of the directory in long format
 mkdir /tmp/holberton - this command is used to create holberton directory in /tmp directory
 mv /tmp/betty /tmp/holberton - this command is used to move the file betty to /tmp/holberton directory
 rm /tmp/holberton/betty - this command is used to delete the file betty from /tmp/holberton directory
-rm -r /tmp/holberton - this command is used to delete holberton directory form /tmp 
+rm -r /tmp/holberton - this command is used to delete holberton directory form /tmp
+
+cd - => this command is used to change the working directory to the previous one 
