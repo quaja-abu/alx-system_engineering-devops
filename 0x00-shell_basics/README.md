@@ -33,3 +33,5 @@ cp -u ./*.html ../ => this command copy html files from the current working dire
 mv [[:upper:]]* /tmp/u => this command moves all files that start with an upper case latter to the directory /tmp/u
 
 rm *~ => this command deletes all files that ends with character ~
+
+mkdir welcome welcome/to welcome/to/holberton => this commands are used to create a tree welcome/to/holberton directory in the current working directory
