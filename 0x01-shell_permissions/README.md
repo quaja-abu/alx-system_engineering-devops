@@ -18,3 +18,4 @@ chmod 777 hello => this command is used to add exectue permission to the owner, 
 
 chmod 007 hello => this command is used to add no permission to owner and group and all the permission for other users for the file hello"
 
+chmod 753 hello => this command is used to add -rwxr-x-wx permission for the file hello"
