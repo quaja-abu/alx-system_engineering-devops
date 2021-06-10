@@ -14,3 +14,4 @@ chmod u+x hello => this command is used to add execute permission to the owner o
 
 chmod ug+x,o+r hello => this command is used to add execute permission for user and group owner and a read permission for other for hello file in the working directory"
 
+chmod 777 hello => this command is used to add exectue permission to the owner, group and other user for the file hello
