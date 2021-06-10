@@ -31,3 +31,5 @@ chown :holberton hello => this command is used to change the group owner to holb
 chown -R betty:holberton . => this command is used to change the owner to betty and group owner to holberton for all files and directories
 
 chown -h betty:holberton _hello => this command is used to change the owner and group owner of symbolic link _hello to betty and holberton
+
+chown --from=guillaume: betty hello => this command is used to change the owner of the file hello to betty only if it is owned by the user guillaume
