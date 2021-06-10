@@ -23,3 +23,5 @@ chmod 753 hello => this command is used to add -rwxr-x-wx permission for the fil
 chmod --reference=olleh hello => this command is used to sets the mode of the file hello the same as olleh
 
 find ./ -type d -exec chmod 711 {} \; => this commad is used to add execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. Regular files should not be changed
+
+mkdir -m 751 dir_holberton => this command is used to create a directory dir_holberton with 751 permission
