@@ -25,3 +25,5 @@ chmod --reference=olleh hello => this command is used to sets the mode of the fi
 find ./ -type d -exec chmod 711 {} \; => this commad is used to add execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. Regular files should not be changed
 
 mkdir -m 751 dir_holberton => this command is used to create a directory dir_holberton with 751 permission
+
+chown :holberton hello => this command is used to change the group owner to holberton for the file hello
