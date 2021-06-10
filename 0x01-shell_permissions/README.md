@@ -21,3 +21,5 @@ chmod 007 hello => this command is used to add no permission to owner and group 
 chmod 753 hello => this command is used to add -rwxr-x-wx permission for the file hello"
 
 chmod --reference=olleh hello => this command is used to sets the mode of the file hello the same as olleh
+
+find ./ -type d -exec chmod 711 {} \; => this commad is used to add execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. Regular files should not be changed
