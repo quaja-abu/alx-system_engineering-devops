@@ -11,3 +11,6 @@ chown betty hello => this command is used to change hello file owner to betty
 touch hello => this command is used to create an empty file called hello
 
 chmod u+x hello => this command is used to add execute permission to the owner of the file hello
+
+chmod ug+x,o+r hello => this command is used to add execute permission for user and group owner and a read permission for other for hello file in the working directory"
+
